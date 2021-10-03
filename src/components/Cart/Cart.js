@@ -16,6 +16,7 @@ const Cart = (props) => {
 			<h3>Order Summary</h3>
 			<h5>Items Orderd : {totalQuantity}</h5>
 			<p>Total : {total}</p>
+			{props.children}
 		</div>
 	);
 };
